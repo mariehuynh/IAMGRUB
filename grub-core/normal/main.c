@@ -395,7 +395,7 @@ grub_normal_read_line_real (char **line, int cont, int nested)
     prompt = _(">");
   else
     /* TRANSLATORS: it's command line prompt.  */
-    prompt = _("grub>");
+    prompt = _("I AM GRUB>");
 
   if (!prompt)
     return grub_errno;
